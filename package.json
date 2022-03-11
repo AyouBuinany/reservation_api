@@ -1,0 +1,45 @@
+{
+  "name": "delice",
+  "version": "1.0.1",
+  "description": "Brief Api For Request Meals & Product From DéliceRestaurant",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest .",
+    "start": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "cros": "^1.0.1",
+    "date-and-time": "^2.2.1",
+    "dateformat": "^5.0.3",
+    "dotenv": "^8.6.0",
+    "easyinvoice": "^1.0.147",
+    "exchange-rates-api": "^1.1.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "fs": "0.0.1-security",
+    "jest": "^26.6.3",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.7.1",
+    "mongoose": "^5.13.9",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.6.5",
+    "path": "^0.12.7",
+    "paypal-rest-sdk": "^1.8.1",
+    "supertest": "^6.1.6",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
